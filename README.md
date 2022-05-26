@@ -1,6 +1,12 @@
 # 👩🏽‍💻 freeCodeCamp Responsive Web Design Certification
 > Repo to track progress through freeCodeCamp's Responsive Web Design curriculum
 
+## ▶ Legend
+|Symbol|Status|
+|------|------|
+|✅|Completed|
+|🟡| In progress|
+
 ## 📚 Curriculum
 |S.No.|Chapter|Project|Codepen|Status|
 |-----|-------|-------|------|-------|
