@@ -12,7 +12,7 @@
 |-----|-------|-------|------|-------|
 |1| HTML| [Cat Photo App](https://github.com/balapriyac/fCC-responsive-web-design/blob/main/1-cat-photo-app.html)|[Link #1](https://codepen.io/balapriya/pen/poareNM)|✅|
 |2|Basic CSS|[Cafe Menu](https://github.com/balapriyac/fCC-responsive-web-design/tree/main/2-cafe-menu)|[Link #2](https://codepen.io/balapriya/pen/ExQbVdM)|✅|
-|3|CSS Colors|[Set of Colored Markers](https://github.com/balapriyac/fCC-responsive-web-design/tree/main/3-color-markers)||✅|
+|3|CSS Colors|[Set of Colored Markers](https://github.com/balapriyac/fCC-responsive-web-design/tree/main/3-color-markers)|[Link #3](https://codepen.io/balapriya/pen/jOZZYaY)|✅|
 |4|HTML Forms|Registration Form|||
 |5|CSS Box Model|Rothko Painting|||
 |6|CSS Flexbox|Photo Gallery|||
