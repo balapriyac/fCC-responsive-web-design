@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">We would love to hear your feedback.</p>
+    <form id="survey-form">
+
+    <!-- Name and other details -->
+
+        <label id="name-label"> Name: <input id="name" type="text" name="name" required placeholder="First Name Last Name"/></label>
+ 
+        <label id="email-label">Email: <input type="email" id="email" name="email" placeholder="yourname@example.com" required /></label>
+        <label id="number-label">Age (Optional): <input type="number" id="number" min="13" max="120" name="age" placeholder="18"/></label>
+
+<!-- select dropdown -->
+      <fieldset>
+
+        <label>What do you like the most about freeCodeCamp?
+          <select id="dropdown" name="like-most">
+            <option value="1">freeCodeCamp Code Radio</option>
+            <option value="2">freeCodeCamp News</option>
+            <option value="3">freeCodeCamp YouTube Channel</option>
+            <option value="4">freeCodeCamp Forum</option>
+            <option value="5">freeCodeCamp Curriculum</option>
+          </select>
+        </label>
+</fieldset>
+<!-- Radio buttons: recommend -->
+
+      <fieldset>Would you to recommend us to a friend?
+        <label><input type="radio" name="recommend" class="inline" value="definitely"/> Definitely!</label>
+        <label><input type="radio" name="recommend" class="inline" value="maybe"/> May be...</label>
+        <label>
+                <label><input type="radio" name="recommend" class="inline" value="notsure"/> Not sure</label>
+    
+     </fieldset>
+
+<!-- checkboxes -->
+<fieldset>Which courses would you like improved? (Select all that apply)
+  
+         <label> <input type="checkbox" name="improve" class="inline" value="web-design"/> Responsive Web Design</label>
+
+   <label><input type="checkbox" name="improve" class="inline" value="js-dsa"/> JavaScript Data Structures and Algorithms</label>
+
+   <label><input type="checkbox" name="improve" class="inline" value="front-end"/> Front-End Libraries</label>
+
+    <label><input type="checkbox" name="improve" class="inline" value="rdb"/> Relational Database</label>
+    </fieldset>
+        <!-- text area element -->
+         <fieldset>
+        <label>Your comments and suggestions:
+          <textarea name="bio" rows="3" cols="30" placeholder="I enjoyed the curriculum..."></textarea>
+			  </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
